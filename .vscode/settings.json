@@ -1,0 +1,9 @@
+{
+    "ros.distro": "humble",
+    "tailwindCSS.includeLanguages": {
+        "python": "html"
+    },
+    "tailwindCSS.experimental.classRegex": [
+        "cls=\"([^\"]*)\""
+    ],
+}

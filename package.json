@@ -1,0 +1,18 @@
+{
+  "name": "no-coder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind-dev": "watch-run -i -p '**/*.py' 'tailwindcss -i ./app.css -o ./app/public/files/app.css'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@iconify/json": "^2.2.247",
+    "@iconify/tailwind": "^1.1.3",
+    "tailwindcss": "^3.4.10",
+    "watch-run": "^1.2.5"
+  }
+}

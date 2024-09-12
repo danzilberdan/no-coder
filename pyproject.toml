@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = "Starter project template for the no-coder 👑"
+authors = ["Dan Zilberman <dan.zilberman99@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-fasthtml = "^0.5.2"
+requests = "^2.32.3"
+debugpy = "^1.8.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+dev = "app.scripts.dev:main"
+gen_secret = "app.scripts.secret:gen_secret"
